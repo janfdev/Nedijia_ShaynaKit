@@ -6,6 +6,9 @@ export default {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"]
       },
+      colors: {
+        color_border: "#353535"
+      },
       backgroundColor: {
         tomato: "#FF9357",
         black_text: "#141414"

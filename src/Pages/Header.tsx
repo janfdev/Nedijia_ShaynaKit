@@ -1,3 +1,4 @@
+import ListRates from "../components/FeatureHiglight";
 import Navbar from "../components/Navbar";
 
 const Header = () => {
@@ -31,6 +32,7 @@ const Header = () => {
           </button>
         </div>
       </div>
+      <ListRates />
     </div>
   );
 };
