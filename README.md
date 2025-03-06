@@ -1,1 +1,1 @@
-# Slicing Desain BWA and ShaynaKit Nideija 
+# Slicing Desain BWA and ShaynaKit Nideija with React
