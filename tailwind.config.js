@@ -7,7 +7,8 @@ export default {
         poppins: ["Poppins", "sans-serif"]
       },
       colors: {
-        color_border: "#353535"
+        color_border: "#353535",
+        paragraph: "#A8A8AB"
       },
       backgroundColor: {
         tomato: "#FF9357",
