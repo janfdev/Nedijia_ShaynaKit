@@ -11,19 +11,16 @@ const LatestDeals = () => {
           </p>
         </div>
 
-        {/* Wrapper untuk CardDeals dengan relative position */}
         <div className="relative flex items-center w-full max-w-6xl">
-          {/* Panah Kiri */}
-          <button className="absolute left-0 z-10 bg-black_text p-3 rounded-full flex items-center justify-center shadow-lg">
+          <a className="absolute cursor-pointer ml-[-25px] z-10 bg-black_text p-3 rounded-full flex items-center justify-center shadow-lg">
             <img src="/assets/icon/arrow-left.svg" alt="Left Arrow" />
-          </button>
+          </a>
 
           <CardDeals />
 
-          {/* Panah Kanan */}
-          <button className="absolute right-0 z-10 bg-black_text p-3 rounded-full flex items-center justify-center shadow-lg">
+          <a className="absolute cursor-pointer right-4 z-10 bg-black_text p-3 rounded-full flex items-center justify-center shadow-lg">
             <img src="/assets/icon/arrow-right.svg" alt="Right Arrow" />
-          </button>
+          </a>
         </div>
       </div>
     </section>
