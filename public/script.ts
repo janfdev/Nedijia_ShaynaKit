@@ -12,12 +12,26 @@ type CardDeals = {
   rates: string;
 };
 
-type Categories = {
+type CategoriesType = {
   title: string;
   icon: string;
+  value: string;
 };
 
-export const deals: CardDeals[] = [
+export const CategoriesCard: CategoriesType[] = [
+  {
+    title: "Star Hill",
+    icon: "/assets/teleskop.svg",
+    value: "18,394"
+  },
+  {
+    title: "Apartment",
+    icon: "/assets/buildings.svg",
+    value: "18,394"
+  }
+];
+
+export const Deals: CardDeals[] = [
   {
     title: "De Flecce",
     image: "/assets/card-1.png",

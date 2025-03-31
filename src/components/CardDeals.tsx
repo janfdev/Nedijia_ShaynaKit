@@ -1,9 +1,9 @@
-import { deals } from "../../public/script.ts";
+import { Deals } from "../../public/script.ts";
 
 const CardDeals = () => {
   return (
     <section className="flex mt-10 flex-col md:flex-row gap-7 text-white">
-      {deals.map((data, index) => (
+      {Deals.map((data, index) => (
         <div
           key={index}
           className="w-64 rounded-2xl overflow-hidden shadow-lg "
