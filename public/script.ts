@@ -21,12 +21,42 @@ type CategoriesType = {
 export const CategoriesCard: CategoriesType[] = [
   {
     title: "Star Hill",
-    icon: "/assets/teleskop.svg",
+    icon: "/assets/icon/teleskop.svg",
     value: "18,394"
   },
   {
     title: "Apartment",
-    icon: "/assets/buildings.svg",
+    icon: "/assets/icon/buildings.svg",
+    value: "18,394"
+  },
+  {
+    title: "Nearby City",
+    icon: "/assets/icon/house-2.svg",
+    value: "18,394"
+  },
+  {
+    title: "Landed House",
+    icon: "/assets/icon/building-4.svg",
+    value: "18,394"
+  },
+  {
+    title: "Airport",
+    icon: "/assets/icon/airplane.svg",
+    value: "18,394"
+  },
+  {
+    title: "Awards",
+    icon: "/assets/icon/cup.svg",
+    value: "18,394"
+  },
+  {
+    title: "Sunset",
+    icon: "/assets/icon/sun-fog.svg",
+    value: "18,394"
+  },
+  {
+    title: "Others",
+    icon: "/assets/icon/dashboard.svg",
     value: "18,394"
   }
 ];

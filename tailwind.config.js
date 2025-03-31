@@ -12,7 +12,8 @@ export default {
       },
       backgroundColor: {
         tomato: "#FF9357",
-        black_text: "#141414"
+        black_text: "#141414",
+        black_card: "#202020"
       }
     }
   },
