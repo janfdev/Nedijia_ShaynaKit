@@ -12,6 +12,11 @@ type CardDeals = {
   rates: string;
 };
 
+type Categories = {
+  title: string;
+  icon: string;
+};
+
 export const deals: CardDeals[] = [
   {
     title: "De Flecce",
